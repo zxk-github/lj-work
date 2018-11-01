@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <script src="./js/jquery.js"></script>
+    <script src="./js/swiper.js"></script>
+</head>
+<body>
+     <!-- 导航 -->
+    <div class="nav">
+        <img src="./imgs/log.jpg" />
+        <ul class="link">
+            <li>
+                <a href="javascript:;">主页</a>
+            </li>
+            <li>
+                <a href="javascript:;">新闻</a>
+            </li>
+            <li>
+                <a href="javascript:;">项目</a>
+            </li>
+            <li>
+                <a href="javascript:;">关于我们</a>
+            </li>      
+        </ul>
+    </div>
+
+    <!-- swiper -->
+    <div>
+        <div id="slider_index" class="slider-nav">
+            <div id="slider-container" class="slider-container clearfix">
+                <div class="slider-item">
+                    <a href="javascript:;" target="_blank">
+                        <img src="http://repo.tjnjs.com/pool/protected/tianjin/image/portal/NCZlRnaLufdO9kDSA9U5wclGQxv7AC8X.png">
+                    </a>
+                </div>
+                <div class="slider-item"><a href="javascript:;" target="_blank"><img src="http://repo.tjnjs.com/pool/protected/tianjin/image/portal/5Zk96gSH6ZNGnX3WoCesyFKqvHDGRu0a.jpg"></a></div>
+                <div class="slider-item"><a href="javascript:;" style="cursor:default"><img src="http://repo.tjnjs.com/pool/protected/tianjin/image/portal/GwroBe3I3-Ctz8lgEB7BEzOu7YubDxla.jpg"></a></div>
+            </div>
+            <ul class="slider-pager"></ul>
+            <div class="slider-direction">
+                <button id="slider-left" class="slider-left" style="display: none;"><</button>
+                <button id="slider-right" class="slider-right" style="display: none;">></button>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- project -->
+    <div class="mid">
+        <div class=" mid">
+            <div class="swiper-con">
+                <div id="swiper" class="swiper-pic">
+                    <div class="swiper-container clearfix">
+                        <ul id="swiper_con" class="swiper-list swiper-wrapper clearfix">
+                            <li class="swiper-item swiper-slide">
+                                <a href="/roadShow/5b7e6d84d4decd74bbc92ff3" target="_blank" class="gendi">
+                                    <img src="http://repo.tjnjs.com/pool/protected/tianjin/image/portal/d2ZPiV1Vns1nmeamgkkIEVdhd7Lbz3Gb.png">
+                                </a>
+                            </li>
+                            <li class="swiper-item swiper-slide">
+                                <a href="/roadShow/5b7e6d84d4decd74bbc92ff3" target="_blank" class="gendi">
+                                    <img src="http://repo.tjnjs.com/pool/protected/tianjin/image/portal/d2ZPiV1Vns1nmeamgkkIEVdhd7Lbz3Gb.png">
+                                </a>
+                            </li>
+                            <li class="swiper-item swiper-slide">
+                                <a href="/roadShow/5b7e6d84d4decd74bbc92ff3" target="_blank" class="gendi">
+                                    <img src="http://repo.tjnjs.com/pool/protected/tianjin/image/portal/d2ZPiV1Vns1nmeamgkkIEVdhd7Lbz3Gb.png">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div>
+
+                </div>
+            </div>
+        </div>
+        <div class="btn-con">
+            <button class="login show-pop" id="login">点击登陆</button>
+            <button class="reg show-pop" id="reg1">点击注册</button>
+        </div>
+    </div>
+
+    <!-- news -->
+    <div></div>
+
+    <!-- fiend link -->
+
+
+
+    <!-- footer -->
+    <div class="footer">
+        <ul>
+            <li>
+                <span>姓名：</span><em>刘静</em>
+            </li>
+            <li>
+                <span>学号：</span><em>121211212122</em>
+            </li>
+            <li>
+                <span>版权：</span><em>121211212122</em>
+            </li>
+        </ul>
+    </div>
+
+    <div class="pop" id="pop">
+        <div class="bg" id="bg"></div>
+        <div class="form-aras">
+            <div class="close" id="close">X 关闭</div>
+            <form>
+                <div class="form-row">
+                    <div class="form-til">用户名：</div>
+                    <input type="text" name="username"/>
+                </div>
+                <div class="form-row">
+                    <div class="form-til">密码：</div>
+                    <input type="password" name="username"/>
+                </div>
+                <div class="form-row">
+                    <div class="form-til">选择城市：</div>
+                    <select>
+                        <option>北京</option>
+                        <option>上海</option>
+                        <option>广州</option>
+                        <option>深圳</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <div class="form-til">性别：</div>
+                    <div>
+                        <input type="radio" name="sex"/>
+                        <label>男</label>
+                        <input type="radio" name="sex"/>
+                        <label>女</label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-til">爱好：</div>
+                    <div>
+                        <input type="checkbox" name="like"/>
+                        <label>跑步</label>
+                        <input type="checkbox" name="like"/>
+                        <label>打球</label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-til">上传照片：</div>
+                    <input type="file" name="file"/>
+                </div>
+                <div class="form-row btn-con1 ">
+                    <input type="submit" name="submit" class="submit" value="提交"/>
+                    <input type="reset" name="reset" class="reset" value="重置"/>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
