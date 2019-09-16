@@ -2,9 +2,9 @@ $(function(){
     if($("#slider_index").find(".slider-item").length>1){
       var sliderContainer = $("#slider-container");
       var sliderNumStart = $("#slider-container").find('.slider-item').length;
-      var sliderWidth = $("#slider_index").width();
-      var windowWid = $(window).width();
-      $('.slider-item').css({'width':windowWid});
+      var sliderWidth = 1000;
+      var windowWid = 1000;
+      $('.slider-item').css({'width': '1000px'});
       // console.log(sliderWidth)
   
       // 初始化导航点
@@ -144,17 +144,4 @@ $(function(){
       }
     }
   }
-
-  $(".show-pop").click(function() {
-    $("#pop").show();
-    })
-    $("#bg").click(function() {
-        $("#pop").hide()
-    }) 
-    $("#close").click(function() {
-        $("#pop").hide()
-    }) 
-
-});
-
-
+})
